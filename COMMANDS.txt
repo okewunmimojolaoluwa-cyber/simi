@@ -1,0 +1,157 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║              QUICK REFERENCE - ALL COMMANDS                  ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════
+
+🚀 GETTING STARTED
+
+1. Install Dependencies:
+   npm install
+
+2. Run Development Server:
+   npm run dev
+
+3. Open in Browser:
+   http://localhost:3000
+
+═══════════════════════════════════════════════════════════════
+
+🏗️ BUILD & DEPLOY
+
+Build for Production:
+   npm run build
+
+Start Production Server:
+   npm start
+
+Deploy to Vercel:
+   npm install -g vercel
+   vercel
+
+═══════════════════════════════════════════════════════════════
+
+🔧 MAINTENANCE
+
+Update Dependencies:
+   npm update
+
+Check for Outdated Packages:
+   npm outdated
+
+Clean Install (if issues):
+   rm -rf node_modules
+   rm package-lock.json
+   npm install
+
+═══════════════════════════════════════════════════════════════
+
+🐛 DEBUGGING
+
+Check Node Version:
+   node --version
+
+Check npm Version:
+   npm --version
+
+Run with Different Port:
+   npm run dev -- -p 3001
+
+═══════════════════════════════════════════════════════════════
+
+📁 FILE OPERATIONS
+
+List All Files:
+   ls -la
+
+Check Project Structure:
+   tree (if installed)
+   or: ls -R
+
+═══════════════════════════════════════════════════════════════
+
+🌐 GIT COMMANDS (Optional)
+
+Initialize Git:
+   git init
+
+Add All Files:
+   git add .
+
+Commit Changes:
+   git commit -m "Initial commit"
+
+Push to GitHub:
+   git remote add origin YOUR_REPO_URL
+   git push -u origin main
+
+═══════════════════════════════════════════════════════════════
+
+🎯 QUICK WORKFLOW
+
+Step 1: Install
+   npm install
+
+Step 2: Add Photos
+   (Copy 4 photos to public/gallery/)
+
+Step 3: Run
+   npm run dev
+
+Step 4: Test
+   (Open http://localhost:3000)
+
+Step 5: Deploy
+   vercel
+
+═══════════════════════════════════════════════════════════════
+
+💡 USEFUL SHORTCUTS
+
+Stop Server:
+   Ctrl + C (or Cmd + C on Mac)
+
+Clear Terminal:
+   clear (Mac/Linux)
+   cls (Windows)
+
+Open in VS Code:
+   code .
+
+═══════════════════════════════════════════════════════════════
+
+🆘 EMERGENCY FIXES
+
+Website Won't Start:
+   rm -rf node_modules
+   npm install
+   npm run dev
+
+Port Already in Use:
+   npm run dev -- -p 3001
+
+Build Fails:
+   npm run build
+   (Check error messages)
+
+═══════════════════════════════════════════════════════════════
+
+📝 NOTES
+
+- All commands should be run in the project root directory
+- Make sure Node.js is installed before running npm commands
+- Use Ctrl+C to stop the development server
+- Changes are auto-reloaded in development mode
+- Check browser console (F12) for errors
+
+═══════════════════════════════════════════════════════════════
+
+🎉 THAT'S IT!
+
+Most of the time you'll only need:
+   npm install  (once)
+   npm run dev  (every time you work on it)
+
+═══════════════════════════════════════════════════════════════

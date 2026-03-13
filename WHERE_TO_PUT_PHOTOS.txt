@@ -1,0 +1,57 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║           📸 WHERE TO PUT SIMILOLUWA'S PHOTOS 📸             ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+STEP 1: Find the "public" folder in this project
+        └── It's in the main project directory
+
+STEP 2: Open the "gallery" folder inside "public"
+        └── Path: public/gallery/
+
+STEP 3: Save the 4 photos with these EXACT names:
+
+        📷 Photo 1 (Black outfit)    →  simi1.jpg
+        📷 Photo 2 (Yellow top #1)   →  simi2.jpg
+        📷 Photo 3 (Yellow top #2)   →  simi3.jpg
+        📷 Photo 4 (White hoodie)    →  simi4.jpg
+
+IMPORTANT NOTES:
+✓ File names must be EXACTLY as shown (lowercase)
+✓ Use .jpg extension (not .JPG or .jpeg)
+✓ No spaces in file names
+✓ All 4 photos must be present
+
+FINAL STRUCTURE SHOULD LOOK LIKE:
+
+love-story-website/
+└── public/
+    └── gallery/
+        ├── simi1.jpg  ✓
+        ├── simi2.jpg  ✓
+        ├── simi3.jpg  ✓
+        └── simi4.jpg  ✓
+
+═══════════════════════════════════════════════════════════════
+
+OPTIONAL: Add Background Music
+
+STEP 1: Go to public/music/ folder
+
+STEP 2: Add your romantic song as:
+        🎵 love-song.mp3
+
+═══════════════════════════════════════════════════════════════
+
+THAT'S IT! 
+
+After adding photos, run:
+    npm run dev
+
+Then open:
+    http://localhost:3000
+
+Your photos will appear in the beautiful gallery! 💕
+
+═══════════════════════════════════════════════════════════════

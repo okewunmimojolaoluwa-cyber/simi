@@ -1,0 +1,60 @@
+╔══════════════════════════════════════════════════════════════╗
+║                                                              ║
+║                    QUICK START GUIDE                         ║
+║                  (For the Impatient! 😊)                    ║
+║                                                              ║
+╚══════════════════════════════════════════════════════════════╝
+
+═══════════════════════════════════════════════════════════════
+
+🚀 3 COMMANDS TO LAUNCH
+
+1. npm install
+2. (Add 4 photos to public/gallery/)
+3. npm run dev
+
+═══════════════════════════════════════════════════════════════
+
+📸 PHOTO NAMES (Must be exact!)
+
+public/gallery/simi1.jpg
+public/gallery/simi2.jpg
+public/gallery/simi3.jpg
+public/gallery/simi4.jpg
+
+═══════════════════════════════════════════════════════════════
+
+🌐 OPEN IN BROWSER
+
+http://localhost:3000
+
+═══════════════════════════════════════════════════════════════
+
+🔐 ADMIN ACCESS
+
+Tap logo 5 times → Password: emmjay
+
+═══════════════════════════════════════════════════════════════
+
+🌐 DEPLOY ONLINE
+
+npm install -g vercel
+vercel
+
+═══════════════════════════════════════════════════════════════
+
+📚 FULL INSTRUCTIONS
+
+See: 🚀_LAUNCH_INSTRUCTIONS.md
+
+═══════════════════════════════════════════════════════════════
+
+🆘 PROBLEMS?
+
+See: TROUBLESHOOTING.md
+
+═══════════════════════════════════════════════════════════════
+
+✨ THAT'S IT! ✨
+
+═══════════════════════════════════════════════════════════════
